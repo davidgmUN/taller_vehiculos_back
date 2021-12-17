@@ -1,0 +1,26 @@
+{
+  "name": "taller_vehiculos_back",
+  "version": "1.0.0",
+  "description": "APIs CRUD y conexión BD (Back-end) proyecto Taller Vehículos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgmUN/taller_vehiculos_back.git"
+  },
+  "author": "David, Miguel, Darwin y Camilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidgmUN/taller_vehiculos_back/issues"
+  },
+  "homepage": "https://github.com/davidgmUN/taller_vehiculos_back#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.19",
+    "nodemon": "^2.0.15"
+  }
+}
